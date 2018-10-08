@@ -1,0 +1,79 @@
+service: serverless-rest-api-with-dynamodb
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  environment:
+    DYNAMODB_TABLE: ${self:service}-${opt:stage, self:provider.stage}
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE}"
+
+functions:
+  create:
+    handler: src/mytasks/create.create
+    events:
+      - http:
+          path: mytasks
+          method: post
+          cors: true
+
+  list:
+    handler: src/mytasks/list.list
+    events:
+      - http:
+          path: mytasks
+          method: get
+          cors: true
+
+  get:
+    handler: src/mytasks/get.get
+    events:
+      - http:
+          path: mytasks/{id}
+          method: get
+          cors: true
+
+  update:
+    handler: src/mytasks/update.update
+    events:
+      - http:
+          path: mytasks/{id}
+          method: put
+          cors: true
+
+  delete:
+    handler: src/mytasks/delete.delete
+    events:
+      - http:
+          path: mytasks/{id}
+          method: delete
+          cors: true
+
+resources:
+  Resources:
+    mytasksDynamoDbTable:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType: S
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: ${self:provider.environment.DYNAMODB_TABLE}

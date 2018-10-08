@@ -1,0 +1,35 @@
+{
+  "name": "aws-rest-with-dynamodb",
+  "version": "1.0.0",
+  "description": "Serverless CRUD service exposing a REST HTTP interface",
+  "author": "Shashikant Bangera",
+  "dependencies": {
+    "uuid": "^3.0.1"
+  },
+  "keywords": [
+    "aws",
+    "Deployment",
+    "CD/CI",
+    "serverless",
+    "task"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "author": "Shashikant Bangera <shzshi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.6.7",
+    "request": "^2.79.0",
+    "mocha": "^3.2.0",
+    "serverless": "^1.7.0",
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/*.js"
+  }
+}

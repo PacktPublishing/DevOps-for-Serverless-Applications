@@ -1,0 +1,14 @@
+{
+    "name": "my-canary-deployment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "handler.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "shashikant bangera",
+    "devDependencies": {
+        "serverless-plugin-aws-alerts": "^1.2.4",
+        "serverless-plugin-canary-deployments": "^0.4.0"
+    }
+}

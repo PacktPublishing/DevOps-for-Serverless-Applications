@@ -1,0 +1,11 @@
+service: bikesearch
+provider:
+  name: kubeless
+  runtime: python2.7
+
+plugins:
+  - serverless-kubeless
+
+functions:
+  bikesearch:
+    handler: handler.find

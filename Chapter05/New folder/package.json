@@ -1,0 +1,20 @@
+{
+  "name": "openwhisk-nodejs",
+  "version": "1.0.0",
+  "description": "Sample OpenWhisk NodeJS serverless framework service.",
+  "main": "handler.js",
+  "scripts": {
+    "postinstall": "npm link serverless-openwhisk"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "openwhisk": "latest",
+    "eslint": "latest",
+    "request": "latest"
+  },
+  "keywords": [
+    "serverless",
+    "openwhisk",
+    "CD/CI"
+  ]
+}

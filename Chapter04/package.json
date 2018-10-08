@@ -1,0 +1,28 @@
+{
+  "name": "azure-helloworld-ci",
+  "version": "1.0.0",
+  "description": "Hello World with Testing",
+  "main": "handler.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "html",
+      "text"
+    ]
+  },
+  "author": "Shashikant Bangera",
+  "license": "MIT"
+}

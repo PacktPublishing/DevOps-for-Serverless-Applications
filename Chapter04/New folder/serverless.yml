@@ -1,0 +1,32 @@
+# Welcome to serverless. Read the docs
+# https://serverless.com/framework/docs/
+
+# Serverless.yml is the configuration the CLI
+# uses to deploy your code to your provider of choice
+
+# The `service` block is the name of the service
+service: azure-helloworld-ci
+
+provider:
+  name: azure
+  location: West US
+
+plugins:
+  - serverless-azure-functions
+
+# exclude the code coverage files and circle ci files
+package:
+  exclude:
+  - coverage/**
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http: true
+        x-azure-settings:
+          authLevel : anonymous
+      - http: true
+        x-azure-settings:
+          direction: out
+          name: res

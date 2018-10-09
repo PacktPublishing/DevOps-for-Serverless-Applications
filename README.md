@@ -2,9 +2,9 @@
 
 <a href="https://www.packtpub.com/virtualization-and-cloud/devops-serverless-applications?utm_source=github&utm_medium=repository&utm_campaign=9781788623445"><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B09349_cover.png" alt="DevOps for Serverless Applications" height="256px" align="right"></a>
 
-This is the code repository for [Book Name](https://www.packtpub.com/virtualization-and-cloud/devops-serverless-applications?utm_source=github&utm_medium=repository&utm_campaign=9781788623445), published by Packt.
+This is the code repository for [DevOps for Serverless Applications](https://www.packtpub.com/virtualization-and-cloud/devops-serverless-applications?utm_source=github&utm_medium=repository&utm_campaign=9781788623445), published by Packt.
 
-**Design, deploy, and monitor your serverless applications using DevOps practices	**
+**Design, deploy, and monitor your serverless applications using DevOps practices**
 
 ## What is this book about?
 
@@ -68,21 +68,14 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 
 ### Related products <Other books you may enjoy>
-* Hands-On Data Science and Python Machine Learning [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/hands-data-science-and-python-machine-learning?utm_source=github&utm_medium=repository&utm_campaign=9781787280748) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Hands-On Security in DevOps [[Packt]](https://www.packtpub.com/networking-and-servers/hands-security-devops?utm_source=github&utm_medium=repository&utm_campaign=9781788995504) [[Amazon]](https://www.amazon.com/dp/1788995503)
 
-* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Practical DevOps - Second Edition [[Packt]](https://www.packtpub.com/virtualization-and-cloud/practical-devops-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788392570) [[Amazon]](https://www.amazon.com/dp/1788392574)
 
-## Get to Know the Author(s)
-**Author Name**
-Bio
-
-**Author Name**
-Bio
+## Get to Know the Author
+**Shashikant Bangera** is a DevOps architect with 18 years of IT experience. He has vast experience with DevOps tools across the platform, with core expertise in CI, CD, the cloud, and automation. He has helped his customers adopt DevOps; architected and implemented enterprise DevOps for domains such as banking, e-commerce, and retail; and also contributed to many open source platforms. He has designed an automated on-demand environment with a set of open source tools and also contributed to the open source arena with an environment booking tool, which is available on GitHub.	
 
 
-## Other books by the authors
-* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.

@@ -41,27 +41,18 @@ memorySize: 512 # will be inherited by all functions
 **Following is what you need for this book:**
 
 DevOps for Serverless Applications is for DevOps engineers, architects, or anyone interested in understanding the DevOps ideology in the serverless world. You will learn to use DevOps with serverless and apply continuous integration, continuous delivery, testing, logging, and monitoring with serverless.	
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-10).
 
 ### Software and Hardware List
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1        | R version 3.3.0                     | Windows, Mac OS X, and Linux (Any) |
-| 2        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 3        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 4        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 5        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 6        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 7        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 8        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 9        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 10        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 11        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 12        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 13        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 14        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 15        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
+| 2        |Nodejs 8.0 and Above, Serverless Framework 2.6 Above, NPM 5.5.1, AWS Free | (Linux VM) on Windows MAC Linux(Any) |
+|3        |Nodejs 8.0 and Above Serverless Framework 2.6 Above NPM 5.5.1 AWS Free Account Docker  | (Linux VM) on Windows MAC Linux |
+| 4        | Azure Free Account            | (Linux VM) on Windows MAC Linux |
+| 5        | IBM Cloud Free Account            | (Linux VM) on Windows MAC Linux |
+| 6        | Google Cloud Free Account         | (Linux VM) on Windows MAC Linux |
+| 7        |minikube v0.25.0            | Windows, Mac OS X, and Linux (Any) |
 
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788623445_ColorImages.pdf).

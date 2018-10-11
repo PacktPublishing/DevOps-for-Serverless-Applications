@@ -52,7 +52,7 @@ With the following software and hardware list you can run all code files present
 | 4        | Azure Free Account            | (Linux VM) on Windows MAC Linux |
 | 5        | IBM Cloud Free Account            | (Linux VM) on Windows MAC Linux |
 | 6        | Google Cloud Free Account         | (Linux VM) on Windows MAC Linux |
-| 7        |minikube v0.25.0            | Windows, Mac OS X, and Linux (Any) |
+| 7        |minikube v0.25.0            |(Linux VM) on Windows MAC Linux |
 
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788623445_ColorImages.pdf).
